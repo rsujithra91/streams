@@ -7,7 +7,7 @@ def get_base64(file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-img = get_base64("background.jpg")
+img = get_base64("robo.jpg")
 
 st.markdown(
     f"""
