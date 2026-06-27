@@ -13,7 +13,7 @@ st.markdown(
     f"""
     <style>
     .stApp {{
-        background-image: url("data:image/jpg;base64,{robo}");
+        background-image: url("data:image/jpg;base64,{img}");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
